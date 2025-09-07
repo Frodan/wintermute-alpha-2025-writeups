@@ -1,0 +1,92 @@
+================================================================================
+EXPLOITER MULTICALL TRANSACTION DECODE
+================================================================================
+Function selector: 0x252dba42 (aggregate)
+\nFound 13 function calls:\n
+Call #1:
+  Position: 1160
+  Target: 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 (stETH)
+  Function: approve (0x095ea7b3)
+  Spender: 0xdc24316b9ae028f1497c275eb9192a3ea0f67022
+  Amount: MAX_UINT256 (infinite approval)
+
+Call #2:
+  Position: 1544
+  Target: 0xdc24316b9ae028f1497c275eb9192a3ea0f67022 (Curve stETH/ETH Pool)
+  Function: exchange (Curve) (0x3df02124)
+  From index: 1
+  To index: 0
+  Amount in: 20,000.00
+  Min out: 0.00
+
+Call #3:
+  Position: 2056
+  Target: 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 (stETH)
+  Function: approve (0x095ea7b3)
+  Spender: 0x21e27a5e5513d6e65c4f830167390997aa84843a
+  Amount: MAX_UINT256 (infinite approval)
+
+Call #4:
+  Position: 2440
+  Target: 0x21e27a5e5513d6e65c4f830167390997aa84843a (Curve ETH/stETH Pool (NG))
+  Function: exchange (Curve) (0x3df02124)
+  From index: 1
+  To index: 0
+  Amount in: 15,000.00
+  Min out: 0.00
+
+Call #5:
+  Position: 2952
+  Target: 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 (stETH)
+  Function: transfer (0xa9059cbb)
+  Recipient: 0x4028daac072e492d34a3afdbef0ba7e35d8b55c4
+  Amount: 12,606.86 tokens
+
+Call #6:
+  Position: 3336
+  Target: 0x4028daac072e492d34a3afdbef0ba7e35d8b55c4 (Uni v2 Pool) (adding)
+  Function: swap (Uniswap V2) (0x022c0d9f)
+
+Call #7:
+  Position: 3912
+  Target: 0xae7ab96520de3a18e5e111b5eaab095312d7fe84 (stETH)
+  Function: approve (0x095ea7b3)
+  Spender: 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0
+  Amount: MAX_UINT256 (infinite approval)
+
+Call #8:
+  Position: 4296
+  Target: 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 (wstETH)
+  Function: unwrap (wstETH) (0xea598cb0)
+  Amount: 42,768.68 wstETH
+
+Call #9:
+  Position: 4616
+  Target: 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 (wstETH)
+  Function: approve (0x095ea7b3)
+  Spender: 0xe592427a0aece92de3edee1f18e0157c05861564
+  Amount: MAX_UINT256 (infinite approval)
+
+Call #10:
+  Position: 5000
+  Target: 0xe592427a0aece92de3edee1f18e0157c05861564 (Uniswap V3 Router) (Done)
+  Function: exactInput (Uniswap V3) (0xc04b8d59)
+
+Call #11:
+  Position: 5832
+  Target: 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 (wstETH)
+  Function: approve (0x095ea7b3)
+  Spender: 0x2889302a794da87fbf1d6db415c1492194663d13
+  Amount: MAX_UINT256 (infinite approval)
+
+Call #12:
+  Position: 6216
+  Target: 0x2889302a794da87fbf1d6db415c1492194663d13 (Pool (unknown))
+  Function: swap (unknown pool) (0x5b41b908)
+
+Call #13:
+  Position: 6792
+  Target: 0x2889302a794da87fbf1d6db415c1492194663d13 (Pool (unknown))
+  Function: swap (unknown pool) (0x5b41b908)
+
+================================================================================

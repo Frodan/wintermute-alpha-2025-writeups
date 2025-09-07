@@ -1,4 +1,4 @@
-# It's Oiler - Solution
+# It's Oiler
 
 ## Task
 Oi, you're enjoying your cuppa tea and scrolling Twitter, where you noticed the post that Euler was exploited an hour ago (it's block 16818350 now). Realizing that you have exposure to it by depositing ETH previously and holding 4.7k eWETH at the moment, you want to save as much out as you can.
