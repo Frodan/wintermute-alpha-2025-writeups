@@ -11,7 +11,7 @@ This repository contains my solutions and writeups for the ["Wintermute Alpha"](
 - [Red Flags Everywhere](./Red%20Flags%20Everywhere/)
 - [Too Old For Optimizing](./Too%20Old%20For%20Optimizing/)
 - [What If](./What%20If/)
-- [Shredding Light](./Shredding%20Light/) - Note, that it is not full points solution.
+- [Shedding Light](./Shredding%20Light/) - Note, that it is not full points solution.
 
 ## Structure
 

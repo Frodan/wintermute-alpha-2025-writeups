@@ -1,4 +1,4 @@
-# Shredding Light
+# Shedding Light
 ## Task
 Throughout this year, liquidity provision on Solana has shifted towards so-called "dark AMMs", which are proprietary programs run by market makers. In contrast to usual AMMs, dark AMMs are actively managed and can be updated as frequently as every slot. They are frontend-less; instead, they adhere to interfaces defined by popular aggregators such as Jupiter, allowing users to access this liquidity implicitly. SolFi is one of the originals and a good example to understand how they work better.
 
